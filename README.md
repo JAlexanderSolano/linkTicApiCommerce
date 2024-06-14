@@ -5,9 +5,11 @@ cambiear el valor en la llave hostUrl por la conexion a la base de datos indicad
 Recordar que previamente a este paso se debe restaurar el backup de la base de datos
 en SQL Server, SSMS (Manejador de SQL Server) 
 ----------> Link en donde estara el backup de la base de datos subida ----> https://mega.nz/file/REsSAJLC#-u_7Ukwi49XJg-c5xB2FlBANaONVtMMYS_UTMGBAkQE
-----------> En caso de no poder restaurar el backup se dejara un link con el script para su posterior descarga ---->
+----------> En caso de no poder restaurar el backup se dejara un link con el script para su posterior descarga ----> https://mega.nz/file/FIMAnabI#_cMHo1DcNL7HsLF__P6diFpjeOHDViRLmoQkfA1FkDI
+
 En dicho script esta el paso paso para crear tanto las tablas como los procedimientos almacenados que se encuentran previamente 
 programados.
+
 La cadena de conexion a cambiar en el archivo es la siguiente: 
 "Settings": {
     "hostUrl": "Data Source=tu host de base de datos\\SQLEXPRESS;Initial Catalog=linkTicPrueba;User ID=Usuario puede ser el sa;Password=contraseña de tu usuario sa"
@@ -23,6 +25,7 @@ Paso 2 // Ejecutar el proyecto y
 Abrir Postman o Si lo desean pueden ejecutrar el proyecto y utilizar swagger para probar el mismo o visualizar la documentacion de la API
 el proyecto por defecto se ejecuta en la siguiente url: https://localhost:7026/
 si desean ejecutar swagger pueden copiar la url de la siguiente manera: https://localhost:7026/swagger.
+
 
 En caso de que deseen utilizar Postman para ejecutar pruebas, pueden realizarlo de la siguiente forma:
 1 Ejecutan el proyecto en Visual Studio
