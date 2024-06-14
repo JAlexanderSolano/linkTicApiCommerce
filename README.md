@@ -33,5 +33,8 @@ En caso de que deseen utilizar Postman para ejecutar pruebas, pueden realizarlo 
 3 Ejecutan los metodos que desan utilizar ya sea para registrar el cliente, listar pedidos, listar productos, generar una compra ect..
 y cambian los valores de acuerdo a lo que se encuentra en cada JSON.
 
+------------------------------------------------------------------------------------------
 
+Documento de puntos teoricos y plano arquitectonico y plano simulado de arquitectura en la nube
+link de descarga -----> https://mega.nz/file/ZY9jybIB#fxgtPme-XKbmGMNnBGDg7gZdxUP4rsJHPqyzSRNTksI
 
